@@ -47,6 +47,7 @@ btnEncriptar.addEventListener("click", e=>{
 
     if(texto == ""){
         aviso.classList.add('vacio')
+        aviso.textContent = "No se encontró texto";
         setTimeout(()=>{
             aviso.classList.remove('vacio')
         },600);
